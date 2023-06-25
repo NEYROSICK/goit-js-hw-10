@@ -79,7 +79,7 @@ img {
   visibility: hidden;
 }
 
-.ss-main.breed-select {
+.breed-select {
   background-color: var(--clr-background-secondary);
   // border: 1px solid var(--clr-border-primary);
   border: none;
@@ -93,6 +93,8 @@ img {
 .ss-content.ss-open-below {
   row-gap: 16px;
   border-radius: 0 0 10px 10px;
+  // border: none;
+  // background-color: var(--clr-background-secondary);
 }
 
 .ss-content .ss-search input:focus,
