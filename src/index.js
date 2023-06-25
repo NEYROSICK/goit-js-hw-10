@@ -4,8 +4,6 @@ import createBreedCard from './createBreedCard.hbs';
 import { fetchBreeds, fetchCatByBreed } from './cat-api';
 
 import SlimSelect from 'slim-select';
-import '../node_modules/slim-select/dist/slimselect.css';
-
 import 'lazysizes';
 
 import SimpleBar from 'simplebar';
