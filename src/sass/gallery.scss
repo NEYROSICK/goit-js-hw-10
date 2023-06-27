@@ -88,14 +88,13 @@ img {
   margin: 20px;
   padding: 16px 10px;
   border-radius: 10px;
-  transition: opacity 400ms, visibility 400ms;
+  transition: transform var(--ss-animation-timing),
+    opacity var(--ss-animation-timing);
 }
 
 .ss-content.ss-open-below {
   row-gap: 16px;
   border-radius: 0 0 10px 10px;
-  // border: none;
-  // background-color: var(--clr-background-secondary);
 }
 
 .ss-content .ss-search input:focus,
